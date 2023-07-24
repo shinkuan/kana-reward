@@ -1,9 +1,5 @@
-
-
 /.vscode
 /Release
 /get_reward.dll
 /get_reward.h
 /get_reward.so
-/go.mod
-/go.sum
