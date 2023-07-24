@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/EndlessCheng/mahjong-helper/util"
-	"github.com/EndlessCheng/mahjong-helper/util/model"
-	"github.com/fatih/color"
 	"math/rand"
 	"strings"
 	"time"
+
+	"github.com/EndlessCheng/mahjong-helper/util"
+	"github.com/EndlessCheng/mahjong-helper/util/model"
+	"github.com/fatih/color"
 )
 
 var (
@@ -121,7 +122,7 @@ func welcome() int {
 	return choose
 }
 
-func main() {
+func _main() {
 	flag.Parse()
 
 	color.HiGreen("日本麻将助手 %s (by EndlessCheng)", version)
